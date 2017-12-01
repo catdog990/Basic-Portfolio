@@ -48,11 +48,13 @@ h1{
 	left: 10%;
 	width: 650px;
 	padding: 20px;
+	border-style: solid;
+	border-width: 1px;
 	background-color: white;
 	
 }
 
-/*start of picture text*/
+/*start of picture text on portfolio page*/
 
 #text-city{
 	position: absolute;
@@ -116,6 +118,8 @@ h1{
 	bottom: 58%;
 	right: 20%;
 	width: 270px;
+	border-style: solid;
+	border-width: 1px;
 	background-color: white;
 	
 }
@@ -155,8 +159,13 @@ html, body{
 #footer{
 	position: fixed;
 	bottom: 0;
-	left: 40%
-	background-color:black;
+	left: 0;
+	width: 100%;
+	padding: 10px;
+	background-color: #666666;
+	text-align: center;
+	color: white;
+	
 }
 
 
@@ -169,12 +178,15 @@ h2{
 	margin-bottom: 10px;
 }
 
+/*Portfolio page*/
 .main-portfolio{
 	position: fixed;
 	left: 150px;
 	top: 170px;
 	height: 500px;
 	width: 360px;
+	border-style: solid;
+	border-width: 1px;
 	background-color: white;
 }
 
@@ -203,6 +215,7 @@ h2{
 	padding: 10px;
 	margin-left: 5px;
 }
+/*End of portfolio page*/
 
 /*Wrapper for about page*/
 .wrapper{
@@ -211,7 +224,7 @@ h2{
 	left: 0%;
 	height: 690px;
 	width: 100%;
-	background: url("https://www.toptal.com/designers/subtlepatterns/icons/android-chrome-192x192.png");
+	background: url("../images/ep_naturalblack.png");
 
 }
 
@@ -222,7 +235,7 @@ h2{
 	left: 0%;
 	height: 690px;
 	width: 100%;
-	background: url("https://www.toptal.com/designers/subtlepatterns/icons/android-chrome-192x192.png");
+	background: url("../images/ep_naturalblack.png");
 }
 
 /*Wrapper for porfile page*/
@@ -232,5 +245,5 @@ h2{
 	left: 0%;
 	height: 690px;
 	width: 100%;
-	background: url("https://www.toptal.com/designers/subtlepatterns/icons/android-chrome-192x192.png");
+	background: url("../images/ep_naturalblack.png");
 }
