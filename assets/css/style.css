@@ -49,6 +49,65 @@ h1{
 	
 }
 
+/*start of picture text*/
+
+#text-city{
+	position: absolute;
+	top: 120px;
+	left: 5px;
+	width: 171px;
+	text-align: center;
+	background-color: gray;
+}
+
+#text-art{
+	position: absolute;
+	top: 120px;
+	right: 10px;
+	width: 160px;
+	text-align: center;
+	background-color: gray;
+}
+
+#text-car{
+	position: absolute;
+	bottom: 260px;
+	left: 5px;
+	width: 150px;
+	text-align: center;
+	background-color: gray;
+}
+
+#text-nature{
+	position: absolute;
+	bottom: 260px;
+	right: 13px;
+	width: 178px;
+	text-align: center;
+	background-color: gray;
+}
+
+#text-waldo{
+	position: absolute;
+	bottom: 120px;
+	left: 5px;
+	width: 150px;
+	text-align: center;
+	background-color: gray;
+}
+
+#text-cat{
+	position: absolute;
+	bottom: 120px;
+	right: 13px;
+	width: 158px;
+	text-align: center;
+	background-color: gray;
+}
+
+/*End of picture text*/
+
+/*Connect with me section*/
 .links{
 	position: fixed;
 	bottom: 58%;
@@ -82,6 +141,7 @@ h1{
 	right: 8%;
 }
 
+/*End of connect with me section*/
 
 html, body{
 	padding: 0;
